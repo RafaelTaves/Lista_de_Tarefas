@@ -1,0 +1,11 @@
+.Tarefa {
+    border-bottom: 1px solid white;
+}
+
+.Tarefa h3 {
+    font-size: 32px;
+}
+
+.Tarefa p {
+    font-size: 24px;
+}
