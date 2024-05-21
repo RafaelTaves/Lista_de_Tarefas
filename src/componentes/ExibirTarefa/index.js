@@ -1,12 +1,12 @@
 import Tarefa from '../Tarefa'
 import './ExibirTarefa.css'
 
-const ExibirTarefa = ({tarefas}) => {
+const ExibirTarefa = ({tarefas, removerTarefa}) => {
     
     return(
         (tarefas.length > 0) ? <section className='exibirTarefa'>
             <div>
-              {tarefas.map(tarefa => <Tarefa key={tarefa.titulo} titulo={tarefa.titulo} descricao={tarefa.descricao}/> )}
+              {tarefas.map((tarefa, index) => <Tarefa key={index} index={index} removerTarefa={removerTarefa} titulo={tarefa.titulo} descricao={tarefa.descricao}/> )}
             </div>
         </section> : ''
     )

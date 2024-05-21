@@ -1,0 +1,8 @@
+.BotaoExcluir button {
+    font-size: 18px;
+    padding: 8px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 50%;
+}
+

@@ -8,4 +8,11 @@
 
 .Tarefa p {
     font-size: 24px;
+    margin-top: 0px;
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
